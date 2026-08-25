@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "investigate-the-animal",
+  "compatibility_date": "2026-08-25",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "vinext/server/app-router-entry",
+  "assets": {
+    "not_found_handling": "none"
+  },
+  "routes": [
+    {
+      "pattern": "yu-zora.com/games/investigate-the-animal*",
+      "zone_name": "yu-zora.com"
+    }
+  ]
+}

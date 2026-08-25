@@ -24,10 +24,10 @@ export type CpuCharacter = {
 };
 
 export const CPU_CHARACTERS: CpuCharacter[] = [
-  { id: 'joseph', name: 'ジョセフ', icon: '/prisma/joseph-101.png', dialogueStyle: '声の芯をじっくり聞く。', hearingProfile: { pitchWeight: .8, contourWeight: 1, timbreWeight: 1.1, durationWeight: .8, noiseWeight: .7, rhythmWeight: .9, skill: .72, confidence: .82, randomness: .28 } },
-  { id: 'marie', name: 'マリー', icon: '/prisma/marie-102.png', dialogueStyle: '音の終わりまで見逃さない。', hearingProfile: { pitchWeight: 1, contourWeight: 1.15, timbreWeight: .9, durationWeight: 1.2, noiseWeight: .75, rhythmWeight: .8, skill: .79, confidence: .88, randomness: .2 } },
-  { id: 'zeried', name: 'ゼリード', icon: '/prisma/zeried-103.png', dialogueStyle: 'リズムのズレに目ざとい。', hearingProfile: { pitchWeight: .72, contourWeight: .8, timbreWeight: .84, durationWeight: .75, noiseWeight: 1, rhythmWeight: 1.3, skill: .68, confidence: .7, randomness: .34 } },
-  { id: 'kate', name: 'ケイト', icon: '/prisma/kate-104.png', dialogueStyle: '高い音と波形を分析する。', hearingProfile: { pitchWeight: 1.25, contourWeight: 1.12, timbreWeight: 1.08, durationWeight: .65, noiseWeight: .84, rhythmWeight: .9, skill: .74, confidence: .76, randomness: .3 } },
+  { id: 'joseph', name: 'ジョセフ', icon: '/games/investigate-the-animal/prisma/joseph-101.png', dialogueStyle: '声の芯をじっくり聞く。', hearingProfile: { pitchWeight: .8, contourWeight: 1, timbreWeight: 1.1, durationWeight: .8, noiseWeight: .7, rhythmWeight: .9, skill: .72, confidence: .82, randomness: .28 } },
+  { id: 'marie', name: 'マリー', icon: '/games/investigate-the-animal/prisma/marie-102.png', dialogueStyle: '音の終わりまで見逃さない。', hearingProfile: { pitchWeight: 1, contourWeight: 1.15, timbreWeight: .9, durationWeight: 1.2, noiseWeight: .75, rhythmWeight: .8, skill: .79, confidence: .88, randomness: .2 } },
+  { id: 'zeried', name: 'ゼリード', icon: '/games/investigate-the-animal/prisma/zeried-103.png', dialogueStyle: 'リズムのズレに目ざとい。', hearingProfile: { pitchWeight: .72, contourWeight: .8, timbreWeight: .84, durationWeight: .75, noiseWeight: 1, rhythmWeight: 1.3, skill: .68, confidence: .7, randomness: .34 } },
+  { id: 'kate', name: 'ケイト', icon: '/games/investigate-the-animal/prisma/kate-104.png', dialogueStyle: '高い音と波形を分析する。', hearingProfile: { pitchWeight: 1.25, contourWeight: 1.12, timbreWeight: 1.08, durationWeight: .65, noiseWeight: .84, rhythmWeight: .9, skill: .74, confidence: .76, randomness: .3 } },
 ];
 
 function recipeFeatures(recipe: VoiceRecipeV1) {

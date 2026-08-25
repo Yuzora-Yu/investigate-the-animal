@@ -43,7 +43,7 @@ button { font: inherit; }
 .card-scan { position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, transparent 48%, rgba(20,218,210,.1) 50%, transparent 52%); }
 .specimen-no { position: absolute; top: 10px; left: 11px; z-index: 2; color: var(--cyan-dark); font: 800 9px ui-monospace, monospace; opacity: .62; }
 .animal-stage { position: relative; width: 100%; height: 108px; display: grid; place-items: center; border: 0; background: transparent; cursor: pointer; }
-.generated-animal { display: block; width: min(100%, 122px); aspect-ratio: 1; background-image: url('/animals/animal-sprite-sheet.png'); background-repeat: no-repeat; background-size: 400% 200%; background-position: var(--sprite-x) var(--sprite-y); filter: drop-shadow(0 7px 5px rgba(20,63,46,.19)); transform-origin: 50% 90%; transition: transform .18s ease; }
+.generated-animal { display: block; width: min(100%, 122px); aspect-ratio: 1; background-image: url('/games/investigate-the-animal/animals/animal-sprite-sheet.png'); background-repeat: no-repeat; background-size: 400% 200%; background-position: var(--sprite-x) var(--sprite-y); filter: drop-shadow(0 7px 5px rgba(20,63,46,.19)); transform-origin: 50% 90%; transition: transform .18s ease; }
 .generated-animal.compact { width: clamp(58px, 10vw, 92px); }
 .animal-card.playing .generated-animal { animation: callout .42s ease-in-out infinite alternate; }
 .sound-wave { position: absolute; right: 13%; top: 28%; color: var(--cyan-dark); font-weight: 900; opacity: 0; transform: rotate(-20deg); }
